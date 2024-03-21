@@ -29,6 +29,13 @@ body {
 
 
 .publication-title {
+  font-family: 'Google Sans', sans-serif; /* This was already here */
+  font-size: 1.5rem; /* Decrease the font size as needed */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Use ellipsis for text that overflows */
+  display: block; /* Ensures the element behaves as a block */
+  width: 100%; /* Makes the element span the full width */
 }
 
 .publication-banner {
